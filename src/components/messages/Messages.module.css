@@ -1,0 +1,265 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nameArrowBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.profileName {
+  margin: 10px;
+  margin-left: 10px;
+}
+
+.arrow {
+  margin: 20px;
+  cursor: pointer;
+}
+
+.penIcon {
+  margin: 20px;
+  cursor: pointer;
+}
+
+.searchBox {
+  border: none;
+  border-radius: 100px;
+  margin: 15px;
+  background-color: rgb(34, 32, 32);
+}
+
+.search {
+  border: none;
+  background-color: rgb(34, 32, 32);
+  padding: 10px;
+  color: grey;
+  border-radius: 100px;
+  width: 90%;
+  color: white;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.MagnifyingGlassIcon {
+  padding-left: 10px;
+  color: grey;
+}
+
+.errorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  height: 300px;
+}
+
+.messageSlash {
+  height: 90px;
+  width: 90px;
+  color: grey;
+}
+
+.errorMessage {
+  font-weight: 10;
+  color: grey;
+  margin-top: 10px;
+}
+
+.newMessageBox {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 91%;
+  top: 60px;
+  overflow: hidden;
+}
+
+.newMessageTittle {
+  padding-top: 10px;
+}
+
+.xicon {
+  cursor: pointer;
+  margin-left: 70px;
+  margin-right: -80px;
+  height: 20px;
+  padding-top: 10px;
+}
+
+.newMessageHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.followerBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  background-color: black;
+  max-height: fit-content;
+  cursor: pointer;
+}
+
+.cameraIcon {
+  margin-right: 10px;
+  height: 17px;
+  color: white;
+}
+
+.pictureNameBox {
+  display: flex;
+  align-items: center;
+}
+
+.followerPicture {
+  border-radius: 100px;
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  margin: 10px;
+  cursor: pointer;
+  border: solid;
+  border-color: rgb(119, 119, 119);
+  border-width: 1px;
+  margin-left: -10px;
+}
+
+.followerName {
+  cursor: pointer;
+}
+
+.chatContainer {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.chatHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid;
+  border-color: rgb(119, 119, 119);
+  border-width: 1px;
+  background-color: black;
+}
+
+.pictureNameBox {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.chatHeaderIcons {
+  margin-right: 10px;
+}
+
+.phoneIcon {
+  margin: 7px;
+  cursor: pointer;
+}
+
+.videoIcon {
+  margin: 7px;
+  cursor: pointer;
+}
+
+.chevronIcon {
+  height: 30px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.chatBox {
+  height: 640px;
+  background-color: black;
+}
+
+.footerBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 100px;
+  background-color: rgb(34, 32, 32);
+  margin-left: 10px;
+  margin-right: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 15px;
+}
+
+.footerMessageBox {
+  display: flex;
+  align-items: center;
+  margin: 8px;
+}
+
+.photoIconBox {
+  cursor: pointer;
+  background-color: purple;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+.micIcon {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.imageIcon {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.noteIcon {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.footerIconBox {
+  padding: 8px;
+}
+
+.footerInput {
+  height: 28px;
+  width: 190px;
+  margin-left: 5px;
+  border: none;
+  background-color: rgb(34, 32, 32);
+  color: white;
+}
+
+.footerInput:focus {
+  outline: none;
+}
+
+.overflowBox {
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.overflowBox::-webkit-scrollbar {
+  width: 1vw;
+}
+
+.overflowBox::-webkit-scrollbar-thumb {
+  background-color: rgb(34, 32, 32);
+}
+
+.overflowBox::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(63, 60, 60);
+}
+
+.overflowBox::-webkit-scrollbar-track {
+  background-color: black;
+}

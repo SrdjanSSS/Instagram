@@ -1,0 +1,181 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profileName {
+  margin: 8px;
+  margin-left: 10px;
+}
+
+.iconBox {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.squareIcon {
+  margin-right: 15px;
+  height: 17px;
+  cursor: pointer;
+}
+
+.barsIcon {
+  height: 17px;
+  cursor: pointer;
+}
+
+.followerCountBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.profileDescription {
+  margin-top: 15px;
+}
+
+.profilePicture {
+  height: 80px;
+  width: 80px;
+  border-radius: 100px;
+  margin-right: 20px;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(119, 119, 119);
+}
+
+.postNum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.followersNum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.followingNum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.buttonBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.btn {
+  margin-right: -10px;
+  width: 170px;
+  height: 25px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(34, 32, 32);
+  color: white;
+}
+
+.AddFollowerBtn {
+  border-radius: 7px;
+  height: 25px;
+  width: 25px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(34, 32, 32);
+  color: white;
+}
+
+.AddStory {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  border: solid;
+  height: 50px;
+  width: 50px;
+  border-width: 1px;
+  border-color: rgb(119, 119, 119);
+  cursor: pointer;
+}
+
+.AddStoryBox {
+  margin: 20px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50px;
+}
+
+.profileNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.tableIcon {
+  height: 17px;
+  cursor: pointer;
+}
+
+.tagIcon {
+  height: 17px;
+  cursor: pointer;
+}
+
+.profilePostBox {
+  position: relative;
+}
+
+.profilePosts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  height: 328px;
+  border-top: solid;
+  border-width: 1px;
+  border-color: rgb(119, 119, 119);
+}
+
+.cameraIconBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  border: solid;
+  border-color: rgb(119, 119, 119);
+  border-width: 1px;
+  margin-bottom: 12px;
+}
+
+.cameraIcon {
+  height: 50px;
+  width: 50px;
+}
+
+.taggedProfilePosts {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  height: 327px;
+}

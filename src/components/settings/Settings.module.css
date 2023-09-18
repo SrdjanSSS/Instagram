@@ -1,0 +1,44 @@
+.settingsContainer {
+  height: 100%;
+}
+
+.settingsBox {
+  position: absolute;
+  background-color: rgb(34, 32, 32);
+  width: 100%;
+  bottom: 0;
+  height: 75%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.textBox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-left: 10px;
+  padding: 12px;
+  cursor: pointer;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: rgb(119, 119, 119);
+}
+
+.xIconBox {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 15px;
+}
+
+.xicon {
+  margin-top: 15px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
