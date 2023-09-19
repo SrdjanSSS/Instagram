@@ -3,8 +3,8 @@ import {
   faHouse,
   faMagnifyingGlass,
   faFilm,
-  faBagShopping,
   faUser,
+  faPlus,
 } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import { Link } from "react-router-dom";
@@ -18,9 +18,9 @@ const Footer = () => {
       <Link style={{ color: "white" }} to={"/search"}>
         <FontAwesomeIcon className="footer-icon" icon={faMagnifyingGlass} />
       </Link>
-      <FontAwesomeIcon className="footer-icon" icon={faFilm} />
+      <FontAwesomeIcon className="footer-icon" icon={faPlus} />
       <Link style={{ color: "white" }} to={"/reels"}>
-        <FontAwesomeIcon className="footer-icon" icon={faBagShopping} />
+        <FontAwesomeIcon className="footer-icon" icon={faFilm} />
       </Link>
       <Link style={{ color: "white" }} to={"/profile"}>
         <FontAwesomeIcon className="footer-icon" icon={faUser} />

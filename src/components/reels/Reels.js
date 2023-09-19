@@ -1,10 +1,10 @@
 import Styles from "./Reels.module.css";
 import Video from "./Video";
 import Footer from "../home/Footer";
-import vid1 from "../Video/vid1.mp4";
-import vid2 from "../Video/vid2.mp4";
-import vid3 from "../Video/vid3.mp4";
-import vid4 from "../Video/vid4.mp4";
+import vid1 from "./video/vid1.mp4";
+import vid2 from "./video/vid2.mp4";
+import vid3 from "./video/vid3.mp4";
+import vid4 from "./video/vid4.mp4";
 
 const Reels = ({ storyPicture }) => {
   const videos = [
