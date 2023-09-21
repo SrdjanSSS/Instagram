@@ -1,0 +1,30 @@
+.container {
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: black;
+}
+
+.chevronIcon {
+  height: 25px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.htext {
+  margin: 20px;
+  color: blue;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pictureBox {
+  height: 70%;
+}

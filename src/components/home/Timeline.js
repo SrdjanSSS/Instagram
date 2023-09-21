@@ -8,7 +8,8 @@ const Timeline = ({ posts, storyPicture, setCommentsPopup }) => {
         <PostBox
           setCommentsPopup={setCommentsPopup}
           user={post.user}
-          postImage={post.postImage}
+          profileImage={post.profileImage}
+          postImg={post.postImg}
           timestamp={post.timestamp}
           storyPicture={storyPicture}
           id={post.id}

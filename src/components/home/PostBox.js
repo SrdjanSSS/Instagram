@@ -9,12 +9,13 @@ import {
 import React, { useRef, useState } from "react";
 
 const PostBox = ({
-  postImage,
+  profileImage,
   user,
   timestamp,
   storyPicture,
   setCommentsPopup,
   id,
+  postImg,
 }) => {
   const heartRef = useRef();
   const BookmarkRef = useRef();
@@ -48,7 +49,7 @@ const PostBox = ({
           <div
             className="profile-post-btn"
             style={{
-              backgroundImage: `url("${postImage}")`,
+              backgroundImage: `url("${profileImage}")`,
               backgroundSize: "cover",
             }}
           ></div>
@@ -62,7 +63,7 @@ const PostBox = ({
       <div
         className="post"
         style={{
-          backgroundImage: `url("${storyPicture}")`,
+          backgroundImage: `url("${postImg}")`,
           backgroundSize: "cover",
         }}
       ></div>

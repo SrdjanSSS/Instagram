@@ -13,6 +13,7 @@ import Register from "./components/atuhentication/Register";
 import { auth } from "./Firebase";
 import Reels from "./components/reels/Reels";
 import Search from "./components/search/Search";
+import { Camera } from "./components/newPost/Camera";
 
 const API_URL = "https://dog.ceo/api/breeds/image/random";
 
@@ -46,6 +47,36 @@ function App() {
     "https://images.dog.ceo/breeds/dhole/n02115913_915.jpg"
   );
   const [inboxPopup, setInboxPopup] = useState(false);
+  const [posts, setPosts] = useState([
+    {
+      id: 1,
+      user: "nikola",
+      profileImage: storyPicture,
+      timestamp: "30min",
+      postImg: storyPicture,
+    },
+    {
+      id: 2,
+      user: "marko",
+      profileImage: storyPicture,
+      timestamp: "1h",
+      postImg: storyPicture,
+    },
+    {
+      id: 3,
+      user: "janko",
+      profileImage: storyPicture,
+      timestamp: "1d",
+      postImg: storyPicture,
+    },
+    {
+      id: 4,
+      user: "petko",
+      profileImage: storyPicture,
+      timestamp: "2d",
+      postImg: storyPicture,
+    },
+  ]);
 
   const getPicture = async () => {
     const response = await fetch(`${API_URL}`);
@@ -67,6 +98,10 @@ function App() {
         </div>
       ) : (
         <Routes>
+          <Route
+            path="newPost"
+            element={<Camera setPosts={setPosts} posts={posts} />}
+          />
           <Route path="search" element={<Search />} />
           <Route path="reels" element={<Reels storyPicture={storyPicture} />} />
           <Route path="register" element={<Register />} />
@@ -82,7 +117,7 @@ function App() {
             path={"/"}
             element={
               <Guard shouldRedirect={!user} redirectRoute={"/login"}>
-                <Home storyPicture={storyPicture} />
+                <Home posts={posts} storyPicture={storyPicture} />
               </Guard>
             }
           ></Route>

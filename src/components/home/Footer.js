@@ -18,7 +18,9 @@ const Footer = () => {
       <Link style={{ color: "white" }} to={"/search"}>
         <FontAwesomeIcon className="footer-icon" icon={faMagnifyingGlass} />
       </Link>
-      <FontAwesomeIcon className="footer-icon" icon={faPlus} />
+      <Link style={{ color: "white" }} to={"/newPost"}>
+        <FontAwesomeIcon className="footer-icon" icon={faPlus} />
+      </Link>
       <Link style={{ color: "white" }} to={"/reels"}>
         <FontAwesomeIcon className="footer-icon" icon={faFilm} />
       </Link>

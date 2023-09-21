@@ -1,0 +1,41 @@
+.container {
+  height: 99.8%;
+}
+
+.xIcon {
+  margin: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.webcamBox {
+  height: 75%;
+}
+
+.btn {
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+
+  background-color: white;
+}
+
+.btn:hover {
+  background-color: rgb(205, 199, 199);
+}
+
+.btnBox {
+  position: absolute;
+
+  border: solid;
+  border-radius: 100px;
+  bottom: 80px;
+  left: 42%;
+  padding: 2px;
+}
+
+.img {
+  position: absolute;
+  top: 231px;
+  width: 100%;
+}
